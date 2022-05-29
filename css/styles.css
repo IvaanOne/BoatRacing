@@ -143,14 +143,12 @@ body {
     height: 10em;
     margin-top: 5em;
     margin-bottom: 2em;
-    /* margin-left: 78em; Victoria */
 }
 
-.imgBoat1 {
+#imgBoat1 {
     display: flex;
     width: 15em;
     height: 8em;
-    background-image: url(/img/barcoAzul1.png);
     background-size: cover;
     z-index: 30;
     rotate: 140;
@@ -162,7 +160,6 @@ body {
     width: 90em;
     background-image: url(/img/vallapiscinafinal.jpg);
     background-size: cover;
-
 }
 .boat2 {
     display: flex;
@@ -172,20 +169,15 @@ body {
     margin-top: 3em;
     margin-bottom: 2em;
 }
-
-.imgBoat2 {
+#imgBoat2 {
     display: flex;
     width: 15em;
     height: 8em;
-    rotate: (30);
-    background-image: url(/img/barcoAzul1.png);
     background-size: cover;
     z-index: 40;
 }
-
 .waveGif {
     display: flex;
-    background-color: purple;
     justify-content: center;
     align-items: center;
     margin-left: 2.3em;
@@ -196,9 +188,9 @@ body {
     z-index: 100;
     margin-bottom: 3.5em;
     border-radius: 0em 0em 1em 1em;
- 
 }
 .runButton {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -211,7 +203,6 @@ body {
     -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 11px 5px rgba(0,0,0,0); 
     box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 11px 5px rgba(0,0,0,0);
 }
-
 .lineaMeta {
     display: flex;
     background-image: url(/img/meta.png);
@@ -220,5 +211,3 @@ body {
     width: 5em;
     margin-left: 63.5em;
 }
-
-

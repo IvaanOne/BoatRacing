@@ -18,11 +18,11 @@
     <section class="pantallas" id="pantalla2" style="display:none">
         <div class="contenedorBoats" id="contenedor">
             <div class="contenedorBoats1" id="contenedorBoats">
-                <div class="boatRed" id="1"><img src="/img/barcoRojo.png" alt="Funny image" onclick="eleccion1(1)"></div>
+                <div class="boatRed" id="1"><img src="/img/RED FLAG.png" alt="Funny image" onclick="eleccion1(1)"></div>
                 <div class="textoBoatRed" id="texto"><strong>RED FLAG</strong></div>
             </div>
             <div class="contenedorBoats2" id="contenedorBoats">
-                <div class="boatBlue" id="2"><img src="/img/barcoAzul.png" alt="Funny image" onclick="eleccion1(2)"></div>
+                <div class="boatBlue" id="2"><img src="/img/BLUE PEARL.png" alt="Funny image" onclick="eleccion1(2)"></div>
                 <div class="textoBoatBlue" id="texto"><strong>BLUE PEARL</strong></div>
             </div>
         </div>
@@ -37,23 +37,24 @@
     <section class="pantallas" id="pantalla3" style="display:none">
     <div class="contenedorGrande">
         <div class="contenedor3">
-            <div class="boat1">
-                <div class="imgBoat1"></div>
+            <div class="boat1" id="sBoat1">
+                <div class="iBoat1" id="imgBoat1"></div>
                 <div class="waveGif"></div>
             </div>
             <div class="valla"></div>
-            <div class="boat2">
-                <div class="imgBoat2"></div>
+            <div class="boat2" id="sBoat2">
+                <div class ="iBoat2" id="imgBoat2"></div>
                 <div class="waveGif"></div>
             </div>
-            <div class="runButton">CLICK&RUN</div>
+            <div class="runButton" onclick="carrera()">CLICK&RUN</div>
         </div>
         <div class="lineaMeta"></div>
     </div>
     </section>
 <!-- Cuarta Pantalla (Winner) --<<<<<    -->
     <section class="sreeen" id="pantalla4" style="display:none" onclick="reinicio()">
-        <div class="contenedor4"></div>
+        <div class="champion"></div>
+        <div class="contenedor4" id="winner"></div>
     </section>
     
     

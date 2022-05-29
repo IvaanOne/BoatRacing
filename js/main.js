@@ -48,11 +48,39 @@ let eleccion1 = (nBoat) => {
 
         setTimeout(() => {
             cambioPantalla(3);
-            displayGame();
+            faseCarrera();
         }, 2500);
     }
 }
+// Para la seleccion de barco
+const faseCarrera= () => {
+    img1.innerHTML = `<img class="iBoat1" src="img/${seleccion1.name}.png" alt="boat1" >`;
+    img2.innerHTML = `<img class="iBoat2" src="img/${seleccion2.name}.png" alt="boat2" >`;
+}
 
+// Funcion para la fase carrera 
+
+const carrera= () => {
+
+    seleccion1.correr();
+    seleccion2.correr();
+    
+    if(seleccion1.velocidad >= 65) {  
+
+        cambioPantalla(4);
+        
+        winner.innerHTML = `<img class="winner" src="img/finalScreen.jpg" alt="winner" > </br> The winner is the Player with ${seleccion1.name}`;
+    } 
+    if(seleccion2.velocidad >= 65) {
+
+        cambioPantalla(4);
+
+        winner.innerHTML = `<img class="winner" src="img/finalScreen.jpg" alt="winner" > </br> The winner is the CPU with ${seleccion2.name}`;
+    }
+
+    document.getElementById("sBoat1").style.marginLeft = `${seleccion1.velocidad}` + "em";
+    document.getElementById("sBoat2").style.marginLeft = `${seleccion2.velocidad}` + "em";
+}
 // Creando clase Barco --<<<<<<
 
 class boat {
@@ -62,14 +90,13 @@ class boat {
         this.id = id;
         this.motor = "4t";
         this.velocidad = 0;
-        this.luck = aleatorio.random(1,20);
+        this.luck = aleatorio.random(1,15);
     }
 
     correr() {
        
         this.velocidad += this.luck;
-
-        this.luck=functions.random(1,20);
+        this.luck=aleatorio.random(1,15);
     }
 };
 
@@ -91,3 +118,11 @@ let allBoats = {
 let seleccion1 = "";
 
 let seleccion2 = "";
+
+
+// Variable para barcos elegidos en screen 3
+
+let img1 = document.getElementById("imgBoat1");
+let img2 = document.getElementById("imgBoat2");
+
+let winner = document.getElementById("winner");
