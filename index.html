@@ -8,21 +8,21 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
-    
+<!-- Primera Pantalla --<<<<< -->
     <section class="pantallas" id="pantalla1" onclick="cambioPantalla(2)">
         <div class="contenedor1"><img src="/img/boatgif.gif" alt="Funny image">
             <div class="credit"><strong>Click to play</strong></div>
         </div>
     </section>
-
+<!-- Segunda Pantalla (Seleccion Barco) --<<<<<< -->
     <section class="pantallas" id="pantalla2" style="display:none">
         <div class="contenedorBoats" id="contenedor">
             <div class="contenedorBoats1" id="contenedorBoats">
-                <div class="boatRed" id="1"><img src="/img/barcoRojo.png" alt="Funny image"></div>
+                <div class="boatRed" id="1"><img src="/img/barcoRojo.png" alt="Funny image" onclick="eleccion1(1)"></div>
                 <div class="textoBoatRed" id="texto"><strong>RED FLAG</strong></div>
             </div>
             <div class="contenedorBoats2" id="contenedorBoats">
-                <div class="boatBlue" id="2"><img src="/img/barcoAzul.png" alt="Funny image"></div>
+                <div class="boatBlue" id="2"><img src="/img/barcoAzul.png" alt="Funny image" onclick="eleccion1(2)"></div>
                 <div class="textoBoatBlue" id="texto"><strong>BLUE PEARL</strong></div>
             </div>
         </div>
@@ -32,17 +32,28 @@
             <div class="dataBoat" id="data1"></div>
             <div class="dataBoat" id="data2"></div>
         </div>
-
     </section>
-
+<!-- Tercera Pantalla (Carrera) --<<<< -->
     <section class="pantallas" id="pantalla3" style="display:none">
+    <div class="contenedorGrande">
         <div class="contenedor3">
+            <div class="boat1">
+                <div class="imgBoat1"></div>
+                <div class="waveGif"></div>
+            </div>
+            <div class="valla"></div>
+            <div class="boat2">
+                <div class="imgBoat2"></div>
+                <div class="waveGif"></div>
+            </div>
+            <div class="runButton">CLICK&RUN</div>
         </div>
+        <div class="lineaMeta"></div>
+    </div>
     </section>
-    
+<!-- Cuarta Pantalla (Winner) --<<<<<    -->
     <section class="sreeen" id="pantalla4" style="display:none" onclick="reinicio()">
-        <div class="contenedor4">
-        </div>
+        <div class="contenedor4"></div>
     </section>
     
     
