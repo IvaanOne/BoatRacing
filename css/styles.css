@@ -211,3 +211,36 @@ body {
     width: 5em;
     margin-left: 63.5em;
 }
+
+/* Pantalla 4 (winner) */
+
+.contenedor4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-image: url(/img/finalScreen.jpg);
+    background-size: cover;
+}
+
+.champion {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bandera {
+    width: 40em;
+    height: 25em;
+    background-image: url(/img/bandera.png);
+    background-size: cover;
+}
+
+.win {
+    margin-top: 2em;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}

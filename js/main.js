@@ -69,13 +69,13 @@ const carrera= () => {
 
         cambioPantalla(4);
         
-        winner.innerHTML = `<img class="winner" src="img/finalScreen.jpg" alt="winner" > </br> The winner is the Player with ${seleccion1.name}`;
+        winner.innerHTML = `The winner is the Player with ${seleccion1.name}`;
     } 
     if(seleccion2.velocidad >= 65) {
 
         cambioPantalla(4);
 
-        winner.innerHTML = `<img class="winner" src="img/finalScreen.jpg" alt="winner" > </br> The winner is the CPU with ${seleccion2.name}`;
+        winner.innerHTML = `The winner is the CPU with ${seleccion2.name}`;
     }
 
     document.getElementById("sBoat1").style.marginLeft = `${seleccion1.velocidad}` + "em";
