@@ -9,20 +9,38 @@
 </head>
 <body>
     
-    <section class="screen" id="pantalla1" onclick="organizer(2)">
-        <div class="contenedor1" ></div>
+    <section class="pantallas" id="pantalla1" onclick="cambioPantalla(2)">
+        <div class="contenedor1"><img src="/img/boatgif.gif" alt="Funny image">
+            <div class="credit"><strong>Click to play</strong></div>
+        </div>
     </section>
 
-    <section class="screen" id="pantalla2" style="display:none" onclick="cambioPantalla(1)">
-        <div class="contenedor2" ></div>
+    <section class="pantallas" id="pantalla2" style="display:none">
+        <div class="contenedorBoats" id="contenedor">
+            <div class="contenedorBoats1" id="contenedorBoats">
+                <div class="boatRed" id="1"><img src="/img/barcoRojo.png" alt="Funny image"></div>
+                <div class="textoBoatRed" id="texto"><strong>RED FLAG</strong></div>
+            </div>
+            <div class="contenedorBoats2" id="contenedorBoats">
+                <div class="boatBlue" id="2"><img src="/img/barcoAzul.png" alt="Funny image"></div>
+                <div class="textoBoatBlue" id="texto"><strong>BLUE PEARL</strong></div>
+            </div>
+        </div>
+        <div class="contenedorPlayerCpu">PLAYER AND CPU</div>
+        <div class="contenedorSelect">◀ SELECT YOUR BOAT ▶</div>
+        <div class="contenedorSeleccion">
+            <div class="dataBoat" id="data1"></div>
+            <div class="dataBoat" id="data2"></div>
+        </div>
+
     </section>
 
-    <section class="sreeen" id="pantalla3" style="display:none" onclick="cambioPantalla(3)">
+    <section class="pantallas" id="pantalla3" style="display:none">
         <div class="contenedor3">
         </div>
     </section>
     
-    <section class="sreeen" id="pantalla4" style="display:none" onclick="cambioPantalla(4)">
+    <section class="sreeen" id="pantalla4" style="display:none" onclick="reinicio()">
         <div class="contenedor4">
         </div>
     </section>

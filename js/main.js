@@ -71,7 +71,6 @@ class boat {
         this.velocidad += this.luck;
 
         this.luck=functions.random(1,20);
-    
     }
 };
 
