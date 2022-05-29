@@ -1,0 +1,17 @@
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor1 {
+    background-image: url(/img/firstScreen.jpg);
+    background-size: cover;
+    height: 40em;
+    width: 50em; 
+}
