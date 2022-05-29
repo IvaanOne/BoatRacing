@@ -120,7 +120,7 @@ let seleccion1 = "";
 let seleccion2 = "";
 
 
-// Variable para barcos elegidos en screen 3
+// Variable para barcos elegidos en screen 3 y winner
 
 let img1 = document.getElementById("imgBoat1");
 let img2 = document.getElementById("imgBoat2");

@@ -8,7 +8,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .pantallas {
     width: 100vw;
     height: 100vh;
@@ -26,7 +25,6 @@ body {
     background-image: url(/img/firstScreen.jpg);
     background-size: cover;
 }
-
 .contenedor1 {
     display: flex;
     justify-content: center;
@@ -229,6 +227,7 @@ body {
     font-size: xx-large;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 .bandera {
@@ -243,4 +242,5 @@ body {
     font-size: xx-large;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
