@@ -22,7 +22,7 @@ body {
 }
 /* Primera Pantalla --<<<<< */
 #pantalla1 {
-    background-image: url(/img/firstScreen.jpg);
+    background-image: url(../img/firstScreen.jpg);
     background-size: cover;
 }
 .contenedor1 {
@@ -42,7 +42,7 @@ body {
 /* Segunda Pantalla --<<< */
 
 #pantalla2 {
-    background-image: url(/img/firstScreen.jpg);
+    background-image: url(../img/firstScreen.jpg);
     background-size: cover; 
 }
 .contenedorBoats {
@@ -119,7 +119,7 @@ body {
 /* Tercera Pantalla --<<<< */
 
 #pantalla3 {
-    background-image: url(/img/gameScreen.jpg);
+    background-image: url(../img/gameScreen.jpg)
     background-size: cover;  
 }
 .contenedorGrande {
@@ -155,7 +155,7 @@ body {
     display: flex;
     height: 1em;
     width: 90em;
-    background-image: url(/img/vallapiscinafinal.jpg);
+    background-image: url(../img/vallapiscinafinal.jpg);
     background-size: cover;
 }
 .boat2 {
@@ -204,7 +204,7 @@ body {
 }
 .lineaMeta {
     display: flex;
-    background-image: url(/img/meta.png);
+    background-image: url(../img/meta.png);
     background-size: cover;
     height: 46.5em;
     width: 5em;
@@ -227,7 +227,7 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background-image: url(/img/finalScreen.jpg);
+    background-image: url(../img/finalScreen.jpg);
     background-size: cover;
 }
 
@@ -241,7 +241,7 @@ body {
 .bandera {
     width: 40em;
     height: 25em;
-    background-image: url(/img/bandera.png);
+    background-image: url(../img/bandera.png);
     background-size: cover;
 }
 
