@@ -5,65 +5,51 @@
 <p align="center">Proyecto número 3 para geekhubs.
 He optado por un juego de carrera de barcos: <br>"Geeks Boats Racing"</p>
 
+---
+
 ## Screenshots
 
 -----
+
+
 ![](/img/boatgif.gif)
 
-![](/img/readmePreview)
+<p align="center">Vista Previa Carrera</p>
 
-![](/screenshots/3.png)
+![](/img/readmePreview.jpg)
 
-## Available Commands
+---
 
-In the project directory, you can run:
+## Instrucciones
 
-### `npm start" : "react-scripts start"`,
+---
 
-The app is built using `create-react-app` so this command Runs the app in Development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. You also need to run the server file as well to completely run the app. The page will reload if you make edits.
-You will also see any lint errors in the console.
+1- Hacer click para ir a selección de barco.
+2- Elegir barco para player 1 y para CPU.
+3- Click en  correr para acercarte a la meta!
 
-### `"npm run build": "react-scripts build"`,
+---
 
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app will be ready to deploy!
 
-### `"npm run test": "react-scripts test"`,
+## Tecnologías usadas
 
-Launches the test runner in the interactive watch mode.
-
-### `"npm run dev": "concurrently "nodemon server" "npm run start"`,
-
-For running the server and app together I am using concurrently this helps a lot in the MERN application as it runs both the server (client and server) concurrently. So you can work on them both together.
-
-### `"serve": "node server"`
-
-For running the server file on you can use this command.
-
-### `npm run serve`
-
-## Built With
+---
 
 - JavaScript
-- Node
-- NPM
-- Webpack
-- HTML
 - CSS
+- HTML
 
-## Future Updates
+---
 
-- [ ] Reliable Storage
+## Bugs Conocidos
 
-## Author
+---
 
-**Rohit Jain**
+- Se aplatana y se estira la imagen del barco elegido al insertarla con inner HTML (No doy con la solución).
 
-- [Profile](https://github.com/rohit19060 "Rohit jain")
-- [Email](mailto:rohitjain19060@gmail.com?subject=Hi "Hi!")
-- [Website](https://kingtechnologies.in "Welcome")
+- Por lo descrito anteriormente el margen de la meta no se cumple correctamente y la pagina se ensancha en el penúltimo click cercano a la meta.
 
-## 🤝 Support
+## Links
 
-Contributions, issues, and feature requests are welcome!
-
-Give a ⭐️ if you like this project!
+¡Pruébalo en GitHub pages!
+https://ivaanone.github.io/BoatRacing/
