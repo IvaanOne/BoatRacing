@@ -119,8 +119,8 @@ body {
 /* Tercera Pantalla --<<<< */
 
 #pantalla3 {
-    background-image: url(../img/gameScreen.jpg)
-    background-size: cover;  
+    background-image: url(../img/gameScreen.jpg);
+    background-size: cover; 
 }
 .contenedorGrande {
     display: flex;
