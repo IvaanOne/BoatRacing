@@ -145,11 +145,10 @@ body {
 
 #imgBoat1 {
     display: flex;
-    width: 15em;
+    width: 10em;
     height: 8em;
     background-size: cover;
     z-index: 30;
-    rotate: 140;
 }
 
 .valla {
@@ -169,24 +168,26 @@ body {
 }
 #imgBoat2 {
     display: flex;
-    width: 15em;
+    width: 10em;
     height: 8em;
     background-size: cover;
-    z-index: 40;
+    z-index: 30;
+    
+    
 }
-.waveGif {
+/* .waveGif {
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     margin-left: 2.3em;
     height: 1em;
     width: 9em;
     background-image: url(/img/waves.gif);
     background-size: cover;
-    z-index: 100;
-    margin-bottom: 3.5em;
+    z-index: 0;
+    margin-bottom: 1em;
     border-radius: 0em 0em 1em 1em;
-}
+} */
 .runButton {
     cursor: pointer;
     display: flex;
@@ -208,6 +209,13 @@ body {
     height: 46.5em;
     width: 5em;
     margin-left: 63.5em;
+}
+
+.iboat2 {
+    display: flex;
+    max-width: 5em;
+    max-height: 5em;
+    object-fit: cover;
 }
 
 /* Pantalla 4 (winner) */
